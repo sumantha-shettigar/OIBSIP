@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+* {
+    background-color: #000010;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+#firstbig {
+    font-size: 45px;
+}
+
+.content-center {
+    float: left;
+    display: flex;
+    margin-left: 50px;
+    align-items: left;
+    justify-content: left;
+}
+
+.content {
+    width: 1000px;
+    height: 100%;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.img-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-main {
+    float: right;
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: auto;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+
+    border: 30px solid transparent;
+    padding-left: 10px;
+    padding-right: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    border-image: url(./gifbg.gif) 30 round;
+
+}
+
+.inv {
+    float: right;
+    width: 400px;
+    height: 1550px;
+    overflow-y: auto;
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-left: auto;
+    display: flex;
+    align-items: top;
+    background-color: #ffffff00;
+    justify-content: center;
+}
+
+.img-mainv {
+    width: 200px;
+    height: 400px;
+    object-fit: contain;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: auto;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+}
+
+.end {
+    color: aliceblue;
+}
+
+
+td {
+    text-align: center;
+    background-color: #ffffff00;
+}
+
+tr {
+    background-color: #ffffff00;
+}
+
+.tradeprop{
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 370px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
